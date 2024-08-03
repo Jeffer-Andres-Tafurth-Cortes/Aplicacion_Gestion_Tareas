@@ -16,14 +16,13 @@
   }
 }
 
+/* En el selector body se especifica algunos estilos globales para toda la aplicacion*/
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #181818;
+  font-size: 17px;
+  color: #fff;
+
+  height: 100vh;
 }
 
 @layer utilities {
